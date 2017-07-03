@@ -12,6 +12,7 @@ Due: July 02, 2017 (Sunday)
 
 Beers dataset contains a list of 2410 US craft beers and Breweries dataset contains 558 US
 breweries. The datasets descriptions are as follows.
+
 Beers.csv:
 Name: Name of the beer.
 Beer ID: Unique identifier of the beer.
