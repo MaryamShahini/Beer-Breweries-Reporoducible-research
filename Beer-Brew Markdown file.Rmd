@@ -2,7 +2,6 @@
 title: "Beers-Breweries Study"
 author: "Maryam Shahini"
 date: "June 30, 2017"
-output: md_document
 ---
 
 # Introduction:
