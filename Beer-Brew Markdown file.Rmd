@@ -6,7 +6,7 @@ date: "June 30, 2017"
 
 # Introduction:
 
-Todays, due to variety of beers and brew styles, beer selection is not simple any more. Craft beers have an enormous positive impact on the economy. Craft brewing industry in the U.S. created more than 424,000 jobs and contributed $56 billion to the U.S. economy. Therefore Craft Beers and Breweries are important.
+Todays, due to variety of beers and brew styles, beer selection is not simple any more. Craft beers have an enormous positive impact on the economy. Craft brewing industry in the U.S. created more than 424,000 jobs and contributed $56 billion to the U.S. economy. Therefore Craft Beers and Breweries industry are very important.
 In this research, there are answers to some common questions regarding craft beers and breweries.  
 
 # Import .csv data sets:
@@ -114,7 +114,7 @@ Brew.per.State
 In order to study available data, first checking the column names to make sure that they are clear in meaning and to understand the information included in each table.
 A key column in each table used to joint tables.
 
-Key column is "Brewery_id" in Beers data set and "Brew_ID"" in Breweries data set.
+Key column is "Brewery_id" in Beers data set and "Brew_ID" in Breweries data set.
 In order to have the same name for key columns in both data sets, it needs to rename the "Brew_ID" column to "Brewery_id".
 
 After renaming "Brew_ID" column, the list of columns in "Breweries" dataset update to:
@@ -321,7 +321,7 @@ abline(lm(Beers$IBU~Beers$ABV), col="red")
 
 # 8. Conclusion:
 
-This study is a reproducible research that answers some commeon questions by using craft beers and breweries information. By using methods done in this study, we are able to perform many more analysis and find reliable answers for other questions.
+This study is a reproducible research that answers some common questions by using craft beers and breweries information. By using methods done in this study, we are able to perform many more analysis and find reliable answers for other questions.
 As shown in above descriptions, number of breweries in each state, number of NA's in each column, IBU and ABV median calculation for each state, states with maximum alcoholic beer and the most bitter beer, summary statistic of ABV variable and relationships between the bitterness and alcoholic content of beers are presented. There are also a few bar charts and scatter plot that clarify some of our results. 
 
 
