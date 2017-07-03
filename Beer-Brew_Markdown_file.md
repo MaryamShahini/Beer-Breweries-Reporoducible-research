@@ -1,12 +1,11 @@
 Introduction:
 =============
 
-Todays, due to variaty of beers and brew styles, beer selection is not
+Todays, due to variety of beers and brew styles, beer selection is not
 simple any more. Craft beers have an enormous positive impact on the
 economy. Craft brewing industry in the U.S. created more than 424,000
-jobs and contributed $56 billion to the U.S. economy. In this research,
-there are answers to some common questions regarding craft beers and
-breweries.
+jobs and contributed $56 billion to the U.S. economy. Therefore Craft Beers and Breweries industry are very important.
+In this research, there are answers to some common questions regarding craft beers and breweries.
 
 Import .csv data sets:
 ======================
@@ -130,13 +129,13 @@ make sure that they are clear in meaning and to understand the
 information included in each table. A key column in each table used to
 joint tables.
 
-Key column is "Brewery\_id" in Beers data set and "Brew\_ID"" in
+Key column is "Brewery_id" in Beers data set and "Brew_ID" in
 Breweries data set. In order to have the same name for key columns in
-both data sets, it needs to rename the "Brew\_ID" column to
-"Brewery\_id".
+both data sets, it needs to rename the "Brew_ID" column to
+"Brewery_id".
 
-After renaming "Brew\_ID" column, the list of columns in "Breweries"
-dataset update to: "Brewery\_id" "Name" "City" "State"
+After renaming "Brew_ID" column, the list of columns in "Breweries"
+dataset update to: "Brewery_id" "Name" "City" "State"
 
     colnames(Breweries)[colnames(Breweries)=="Brew_ID"]<-"Brewery_id"
     names(Breweries)
@@ -151,8 +150,8 @@ dataset update to: "Brewery\_id" "Name" "City" "State"
 Now, it is time to merge data sets. A new object "BeerBrew" which is the
 result of merging tables is created. The dimension of the "BeerBrew"
 data frame is 2410 rows and 10 columns (combination of Beers columns and
-Breweries columns). columns are as below: "Brewery\_id" "Name.Beers"
-"Beer\_ID" "ABV"  
+Breweries columns). columns are as below: "Brewery_id" "Name.Beers"
+"Beer_ID" "ABV"  
 "IBU"  
 "Style" "Ounces" "Name.Breweries" "City" "State"
 
@@ -466,7 +465,7 @@ higher bitterness.
 8. Conclusion:
 ==============
 
-This study is a reproducible research that answers some commeon
+This study is a reproducible research that answers some common
 questions by using craft beers and breweries information. By using
 methods done in this study, we are able to perform many more analysis
 and find reliable answers for other questions. As shown in abov
